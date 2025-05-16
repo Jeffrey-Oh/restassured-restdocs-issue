@@ -1,0 +1,20 @@
+|===
+|필드명|타입|필수값|양식|설명
+
+|code
+|Number
+|true
+|
+|response code
+|message
+|String
+|true
+|
+|response message
+|data
+|Null
+|true
+|
+|response data
+
+|===

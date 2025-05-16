@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'https://docs.api.com/api/user/logout/1' -i -X PATCH \
+    -H 'Content-Type: application/json' \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer accessToken' \
+    -H 'Accept: application/json'
+----
