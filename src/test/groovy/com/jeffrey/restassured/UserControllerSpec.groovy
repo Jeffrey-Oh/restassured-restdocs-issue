@@ -6,6 +6,8 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.restdocs.mockmvc.MockMvcRestDocumentation
 import org.springframework.restdocs.payload.JsonFieldType
 
+import static com.jeffrey.restassured.OperationPreprocessor.getDocumentRequest
+import static com.jeffrey.restassured.OperationPreprocessor.getDocumentResponse
 import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath
 import static org.springframework.restdocs.payload.PayloadDocumentation.responseFields
 import static org.springframework.restdocs.request.RequestDocumentation.parameterWithName
@@ -23,7 +25,8 @@ class UserControllerSpec extends ControllerTest {
         userUseCase.logout(userId)
 
         expect:
-        RestAssuredMockMvc.given()
+        RestAssuredMockMvc
+            .given()
             .spec(spec)
             .when()
                 .patch("/api/user/logout/{userId}", userId)
@@ -32,6 +35,8 @@ class UserControllerSpec extends ControllerTest {
                 .apply(
                     MockMvcRestDocumentation.document(
                         "user/logout",
+                        getDocumentRequest(),
+                        getDocumentResponse(),
                         pathParameters(
                             parameterWithName("userId").description("userId")
                         ),

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jeffrey.restassured.UserControllerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-16T06:21:10.161Z" hostname="otaehyeon-ui-MacBookAir.local" time="1.978">
+<testsuite name="com.jeffrey.restassured.UserControllerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-16T15:41:32.648Z" hostname="otaehyeon-ui-MacBookAir.local" time="1.769">
   <properties/>
-  <testcase name="logout" classname="com.jeffrey.restassured.UserControllerSpec" time="1.978"/>
+  <testcase name="logout" classname="com.jeffrey.restassured.UserControllerSpec" time="1.769"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -12,28 +12,12 @@
 
  :: Spring Boot ::                (v3.4.5)
 
-2025-05-16T15:21:10.842+09:00  INFO 83496 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : Starting UserControllerSpec using Java 17.0.14 with PID 83496 (started by jeffrey in /Users/jeffrey/Desktop/workspace/restassured-restdocs-issue)
-2025-05-16T15:21:10.843+09:00  INFO 83496 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : No active profile set, falling back to 1 default profile: "default"
-2025-05-16T15:21:11.501+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-05-16T15:21:11.502+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-05-16T15:21:11.504+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-05-16T15:21:11.531+09:00  INFO 83496 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : Started UserControllerSpec in 0.869 seconds (process running for 2.147)
-2025-05-16T15:21:11.724+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-05-16T15:21:11.724+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-05-16T15:21:11.726+09:00  INFO 83496 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-Request method:	PATCH
-Request URI:	http://localhost:8080/api/user/logout/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer accessToken
-				Accept=application/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
+2025-05-17T00:41:33.304+09:00  INFO 46947 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : Starting UserControllerSpec using Java 17.0.14 with PID 46947 (started by jeffrey in /Users/jeffrey/Desktop/workspace/restassured-restdocs-issue)
+2025-05-17T00:41:33.305+09:00  INFO 46947 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : No active profile set, falling back to 1 default profile: "default"
+2025-05-17T00:41:34.004+09:00  INFO 46947 --- [restassured] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-17T00:41:34.005+09:00  INFO 46947 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-17T00:41:34.006+09:00  INFO 46947 --- [restassured] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-05-17T00:41:34.031+09:00  INFO 46947 --- [restassured] [    Test worker] c.j.restassured.UserControllerSpec       : Started UserControllerSpec in 0.896 seconds (process running for 2.123)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
