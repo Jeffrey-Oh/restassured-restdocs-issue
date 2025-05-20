@@ -11,5 +11,5 @@ The modified code resolving this issue is available in the `refactor` branch.
 
 ### References
 
-- [Spring GitHub Issue #34913 (Comment)](https://github.com/spring-projects/spring-framework/issues/34913#issuecomment-2890589689)  
+- [Spring GitHub Issue #34913 (Comment)](https://github.com/spring-projects/spring-framework/issues/34913)  
 - [Stack Overflow: Duplicate Content-Type Header in Spring REST Docs using RestAssuredMockMvc](https://stackoverflow.com/questions/79616625/duplicate-content-type-header-in-spring-rest-docs-using-restassuredmockmvc)
